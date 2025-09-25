@@ -28,7 +28,6 @@ class BlogComment implements Comment {
     }
 }
 
-// Конкретные продукты для новостей
 class NewsPage implements Page {
     public void render() {
         System.out.println("Rendering news page");
@@ -103,3 +102,4 @@ public class AbstractFactory {
         comment.show();
     }
 }
+
